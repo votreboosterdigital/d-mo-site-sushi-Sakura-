@@ -8,14 +8,14 @@ export default function Footer() {
       <div className="container-max py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
         {/* Logo texte */}
         <div className="flex items-center gap-2">
-          <span className="font-heading text-lg text-white/60 tracking-wide">sakura</span>
-          <span className="text-sakura-red text-lg font-heading">桜</span>
-          <span className="font-heading text-lg text-white/60 tracking-wide">sushi</span>
+          <span className="font-heading text-lg text-white/60 tracking-wide">Blasian</span>
+          <span className="text-sakura-red text-lg font-heading font-bold">Halal</span>
+          <span className="font-heading text-lg text-white/60 tracking-wide">· Traiteur</span>
         </div>
 
         {/* Copyright + crédit */}
         <p className="font-body text-muted text-xs text-center">
-          © {year} Sakura Sushi Montréal · Développé par{' '}
+          © {year} BlasianHalal Montréal · Développé par{' '}
           <a
             href="https://votreboosterdigital.com"
             target="_blank"

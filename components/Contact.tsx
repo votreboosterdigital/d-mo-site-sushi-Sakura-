@@ -15,7 +15,7 @@ const socialLinks = [
   },
   {
     name: 'Facebook',
-    href: 'YOUR_FACEBOOK_URL',
+    href: 'https://www.facebook.com/BlasianHalal',
     icon: (
       <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
         <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
@@ -54,7 +54,7 @@ const infos = [
       </svg>
     ),
     label: 'Adresse',
-    value: '1234 avenue du Mont-Royal Est\nMontréal, QC H2J 1Y3',
+    value: 'Montréal, QC\nZone de service : Grand Montréal',
     href: 'YOUR_GOOGLE_MAPS_URL',
   },
   {
@@ -74,8 +74,8 @@ const infos = [
       </svg>
     ),
     label: 'Email',
-    value: 'contact@sakurasushi.ca',
-    href: 'mailto:contact@sakurasushi.ca',
+    value: 'contact@blasianhalal.ca',
+    href: 'mailto:contact@blasianhalal.ca',
   },
   {
     icon: (
@@ -84,7 +84,7 @@ const infos = [
       </svg>
     ),
     label: 'Horaires',
-    value: 'Lun–Ven : 11h30–22h00\nSam–Dim : 12h00–23h00',
+    value: 'Disponible sur réservation\nMariages, Eid & événements privés',
     href: null,
   },
 ]
@@ -184,8 +184,8 @@ export default function Contact() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
                 </svg>
               </div>
-              <p className="font-heading text-lg text-white font-semibold mb-2">Sakura Sushi</p>
-              <p className="font-body text-muted text-sm mb-4">1234 avenue du Mont-Royal Est, Montréal</p>
+              <p className="font-heading text-lg text-white font-semibold mb-2">BlasianHalal</p>
+              <p className="font-body text-muted text-sm mb-4">Service Traiteur — Montréal, QC</p>
               <a
                 href="YOUR_GOOGLE_MAPS_URL"
                 target="_blank"

@@ -14,10 +14,10 @@ const fadeUp = {
 
 // Badges de confiance
 const trustBadges = [
-  { icon: '🍣', label: 'Fait à la main' },
-  { icon: '⚡', label: 'Livraison 30 min' },
-  { icon: '🕐', label: 'Ouvert 7j/7' },
-  { icon: '⭐', label: '4,9/5 sur Google' },
+  { icon: '✅', label: 'Certifié Halal' },
+  { icon: '🍣', label: 'Sushis & Cuisine Haïtienne' },
+  { icon: '💍', label: 'Mariages & Eid' },
+  { icon: '⭐', label: 'Créations personnalisées' },
 ]
 
 export default function Hero() {
@@ -46,7 +46,7 @@ export default function Hero() {
           <motion.div custom={0} variants={fadeUp} initial="hidden" animate="visible">
             <span className="inline-flex items-center gap-2 px-4 py-1.5 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full text-white/90 text-sm font-body mb-6">
               <span className="w-2 h-2 bg-sakura-red rounded-full animate-pulse" />
-              Restaurant sushi à Montréal · Plateau-Mont-Royal
+              Service Traiteur Halal · Montréal
             </span>
           </motion.div>
 
@@ -58,11 +58,11 @@ export default function Hero() {
             animate="visible"
             className="font-heading font-semibold text-5xl sm:text-6xl lg:text-7xl text-white leading-[1.05] tracking-tight mb-6"
           >
-            Sushi frais
+            Traiteur Halal
             <br />
-            <span className="text-gradient-gold">préparé à Montréal.</span>
+            <span className="text-gradient-gold">Sushis & Cuisine Haïtienne.</span>
             <br />
-            <span className="text-white/80 text-4xl sm:text-5xl lg:text-6xl">Fait à la main.</span>
+            <span className="text-white/80 text-4xl sm:text-5xl lg:text-6xl">Fait avec passion.</span>
           </motion.h1>
 
           {/* Sous-titre */}
@@ -73,8 +73,8 @@ export default function Hero() {
             animate="visible"
             className="font-body text-white/75 text-lg sm:text-xl leading-relaxed mb-8 max-w-xl"
           >
-            Poisson frais livré chaque matin. Rouleaux préparés à la commande.{' '}
-            <strong className="text-white font-semibold">Livraison en 30 min.</strong>
+            Créations culinaires halal personnalisées pour mariages, célébrations de l&apos;Eid et événements privés à Montréal.{' '}
+            <strong className="text-white font-semibold">100% halal, 100% sur mesure.</strong>
           </motion.p>
 
           {/* Boutons CTA */}
@@ -85,17 +85,15 @@ export default function Hero() {
             animate="visible"
             className="flex flex-col sm:flex-row gap-4 mb-10"
           >
-            {/* CTA principal — Uber Eats */}
+            {/* CTA principal — Demande de devis */}
             <a
-              href="YOUR_UBEREATS_URL"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#commander"
               className="inline-flex items-center justify-center gap-2 px-7 py-4 bg-sakura-red hover:bg-sakura-red-hover text-white font-body font-semibold text-base rounded-card shadow-red hover:shadow-red-lg transition-all duration-200 hover:-translate-y-1"
             >
               <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
               </svg>
-              Commander sur Uber Eats
+              Réserver pour mon événement
             </a>
 
             {/* CTA secondaire — appel */}
@@ -106,7 +104,7 @@ export default function Hero() {
               <svg className="w-5 h-5 text-sakura-red" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z" />
               </svg>
-              Appeler pour réserver
+              Appeler pour discuter
             </a>
           </motion.div>
 

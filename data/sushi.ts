@@ -57,19 +57,19 @@ export const testimonials: Testimonial[] = [
   {
     id: 'testimonial-1',
     rating: 5,
-    text: 'Le meilleur sushi de Montréal, sans exagération. Le Rainbow Roll est exceptionnel, et la livraison était là en 28 minutes chrono. Je recommande à tous mes amis.',
-    author: 'Marie-Claude B.',
+    text: "BlasianHalal a géré le traiteur pour notre mariage et c'était parfait. Les sushis étaient frais, la cuisine haïtienne savoureuse, et tout était 100% halal. Nos invités ont adoré !",
+    author: 'Fatima & Youssef M.',
   },
   {
     id: 'testimonial-2',
     rating: 5,
-    text: "Fraîcheur incroyable, présentation soignée. On sent que c'est fait à la main avec amour. Les nigiri fondent en bouche. Un vrai coup de coeur.",
-    author: 'Jonathan P.',
+    text: "Pour notre célébration de l'Eid, nous avons commandé un buffet complet. Présentation magnifique, saveurs incroyables, service impeccable. Une équipe de confiance.",
+    author: 'Amina K.',
   },
   {
     id: 'testimonial-3',
     rating: 5,
-    text: 'Commander ici est devenu notre rituel du vendredi soir. Qualité constante, portions généreuses, et le service est toujours souriant. Merci !',
-    author: 'Sophie & Alex R.',
+    text: "La fusion sushi-cuisine haïtienne est une idée de génie ! On a découvert BlasianHalal via un ami et maintenant c'est notre traiteur attitré pour tous nos événements privés.",
+    author: 'Marcus & Jennifer D.',
   },
 ]

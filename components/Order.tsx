@@ -20,34 +20,34 @@ export default function Order() {
           {/* Contenu */}
           <div className="relative z-10">
             <p className="font-body text-sakura-red text-xs font-semibold tracking-[0.2em] uppercase mb-4">
-              — Commander —
+              — Réservez votre événement —
             </p>
             <h2 className="font-heading text-4xl sm:text-5xl lg:text-6xl text-white font-semibold mb-4 leading-tight">
-              Prêt à commander ?
+              Prêt à faire de votre<br />événement un souvenir ?
             </h2>
             <p className="font-body text-muted-light text-lg mb-10 max-w-lg mx-auto leading-relaxed">
-              Choisissez votre mode de commande. Livraison rapide ou à emporter, c'est vous qui choisissez.
+              Mariage, Eid, baptême ou soirée privée — contactez-nous pour un menu personnalisé 100% halal.
             </p>
 
             {/* Boutons CTA */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
-              {/* Uber Eats */}
+              {/* Réserver par message */}
               <motion.a
-                href="YOUR_UBEREATS_URL"
+                href="https://www.facebook.com/BlasianHalal"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.04, y: -3 }}
                 whileTap={{ scale: 0.97 }}
                 className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-sakura-red hover:bg-sakura-red-hover text-white font-body font-semibold text-base rounded-card shadow-red hover:shadow-red-lg transition-all duration-200"
               >
-                {/* Icône livraison */}
+                {/* Icône calendrier */}
                 <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12" />
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                 </svg>
-                Commander sur Uber Eats
+                Réserver via Facebook
               </motion.a>
 
-              {/* Commander directement */}
+              {/* Appeler directement */}
               <motion.a
                 href="tel:+15140000000"
                 whileHover={{ scale: 1.04, y: -3 }}
@@ -61,11 +61,11 @@ export default function Order() {
               </motion.a>
             </div>
 
-            {/* Horaires */}
+            {/* Info événements */}
             <div className="flex flex-wrap justify-center gap-x-8 gap-y-2 font-body text-sm text-muted">
-              <span>🕐 Lun–Ven : 11h30 – 22h00</span>
-              <span>🕐 Sam–Dim : 12h00 – 23h00</span>
-              <span>🚀 Livraison jusqu'à 21h30</span>
+              <span>💍 Mariages</span>
+              <span>🌙 Eid ul-Fitr & Eid ul-Adha</span>
+              <span>🎉 Événements privés</span>
             </div>
           </div>
         </motion.div>

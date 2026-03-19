@@ -22,15 +22,12 @@ export default function Header() {
       }`}
     >
       <div className="container-max flex items-center justify-between">
-        {/* Logo texte japonais */}
+        {/* Logo texte */}
         <a href="#hero" className="flex items-center gap-2 group">
           <span className="font-heading text-2xl font-semibold text-[#f5f5f5] tracking-wide group-hover:text-gold transition-colors duration-200">
-            sakura
+            Blasian
           </span>
-          <span className="text-sakura-red text-2xl font-heading">桜</span>
-          <span className="font-heading text-2xl font-semibold text-[#f5f5f5] tracking-wide group-hover:text-gold transition-colors duration-200">
-            sushi
-          </span>
+          <span className="text-sakura-red text-2xl font-heading font-bold">Halal</span>
         </a>
 
         {/* Nav desktop */}
@@ -51,14 +48,14 @@ export default function Header() {
           ))}
         </nav>
 
-        {/* CTA Commander */}
+        {/* CTA Réserver */}
         <motion.a
           href="#commander"
           whileHover={{ scale: 1.04 }}
           whileTap={{ scale: 0.97 }}
           className="bg-sakura-red hover:bg-sakura-red-hover text-white font-body font-semibold text-sm px-5 py-2.5 rounded-card transition-colors duration-200 shadow-red"
         >
-          Commander
+          Réserver
         </motion.a>
       </div>
     </header>

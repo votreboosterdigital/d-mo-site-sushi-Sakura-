@@ -6,11 +6,11 @@ const arguments_ = [
   {
     icon: (
       <svg className="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5}>
-        <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
       </svg>
     ),
-    title: 'Poisson frais du matin',
-    text: 'Notre fournisseur livre chaque matin. Aucun produit congelé. Ce que vous mangez a été préparé le jour même.',
+    title: 'Certifié 100% Halal',
+    text: "Tous nos ingrédients sont halal certifiés. Chaque préparation respecte les normes alimentaires islamiques, sans compromis.",
   },
   {
     icon: (
@@ -18,26 +18,26 @@ const arguments_ = [
         <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z" />
       </svg>
     ),
-    title: 'Préparé à la commande',
-    text: 'Vos rouleaux sont préparés au moment où vous commandez. Jamais réchauffé, toujours parfait.',
+    title: 'Sushis & Cuisine Haïtienne',
+    text: "Une fusion unique : rouleaux et nigiri japonais côtoient les saveurs authentiques de la cuisine haïtienne. Une expérience gastronomique hors du commun.",
   },
   {
     icon: (
       <svg className="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5}>
-        <path strokeLinecap="round" strokeLinejoin="round" d="M15.59 14.37a6 6 0 01-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 006.16-12.12A14.98 14.98 0 009.631 8.41m5.96 5.96a14.926 14.926 0 01-5.841 2.58m-.119-8.54a6 6 0 00-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 00-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 01-2.448-2.448 14.9 14.9 0 01.06-.312m-2.24 2.39a4.493 4.493 0 00-1.757 4.306 4.493 4.493 0 004.306-1.758M16.5 9a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
       </svg>
     ),
-    title: 'Livraison en ~30 minutes',
-    text: 'Disponible sur Uber Eats et Deliveroo. Ou appelez-nous directement pour une commande à emporter.',
+    title: 'Mariages & Célébrations Eid',
+    text: "Spécialistes des grands événements : mariages, Eid ul-Fitr, Eid ul-Adha, baptêmes et fêtes privées. Nous gérons tout pour que vous profitiez pleinement.",
   },
   {
     icon: (
       <svg className="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5}>
-        <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z" />
       </svg>
     ),
-    title: 'Sans additifs ni MSG',
-    text: 'Ingrédients naturels, recettes japonaises authentiques. Rien d\'artificiel dans nos préparations.',
+    title: 'Créations Personnalisées',
+    text: "Chaque événement est unique. Menus sur mesure, présentation soignée et service attentionné pour faire de votre occasion un souvenir inoubliable.",
   },
 ]
 
@@ -73,7 +73,7 @@ export default function WhyUs() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="font-heading text-4xl sm:text-5xl text-white font-semibold mb-4"
           >
-            La différence Sakura
+            La différence BlasianHalal
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -82,7 +82,7 @@ export default function WhyUs() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="font-body text-muted text-base leading-relaxed"
           >
-            Ce n'est pas juste du sushi. C'est une expérience culinaire préparée avec soin.
+            Une fusion culinaire halal unique, préparée avec passion pour vos moments les plus importants.
           </motion.p>
         </div>
 

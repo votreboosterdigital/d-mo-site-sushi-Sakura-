@@ -18,23 +18,24 @@ const inter = Inter({
 
 // Balises SEO — à personnaliser avec les vraies infos du client
 export const metadata: Metadata = {
-  title: 'Sakura Sushi Montréal — Sushi frais préparés à la main',
+  title: 'BlasianHalal — Traiteur Halal | Sushis & Cuisine Haïtienne à Montréal',
   description:
-    'Restaurant sushi à Montréal. Sushi frais, rouleaux, nigiri préparés à la main. Livraison rapide via Uber Eats. Commandez en ligne ou appelez-nous.',
+    'Service traiteur halal spécialisé en sushis & cuisine haïtienne à Montréal. Créations personnalisées pour mariages, Eid et événements privés. Contactez-nous pour un devis.',
   keywords: [
-    'sushi montréal',
-    'restaurant japonais montréal',
-    'livraison sushi',
-    'nigiri montréal',
-    'maki roll',
-    'sakura sushi',
+    'traiteur halal montréal',
+    'sushi halal montréal',
+    'cuisine haïtienne montréal',
+    'traiteur mariage montréal',
+    'traiteur eid montréal',
+    'blasianhalal',
+    'événement privé traiteur',
   ],
   openGraph: {
-    title: 'Sakura Sushi Montréal',
-    description: 'Sushi frais préparés à la main, livrés en 30 min.',
+    title: 'BlasianHalal — Traiteur Halal Sushis & Cuisine Haïtienne',
+    description: 'Créations culinaires halal personnalisées pour mariages, Eid et événements privés à Montréal.',
     type: 'website',
     locale: 'fr_CA',
-    // url: 'https://sushi-demonstration.vercel.app', // ← décommenter après déploiement
+    // url: 'https://blasianhalal.vercel.app', // ← décommenter après déploiement
   },
   // Lien vers Google Business — remplacer YOUR_GOOGLE_BUSINESS_URL
   // googleSiteVerification: 'YOUR_VERIFICATION_CODE',
